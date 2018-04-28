@@ -1,0 +1,75 @@
+/* Submitted by Brent Robertson */
+
+body {
+	text-align: center;
+}
+
+.container-div {
+	display: inline-block;
+	width: 100px;
+	height: 150px;
+	margin: 0 5px;
+}
+
+.drag-item , .drop-item{
+	border-radius: 0.3em;
+	border: 2px solid #678CDC;
+	height: 50px;
+	width: 100px;
+	position: absolute;
+}
+
+.drag-item {
+	background-color: #678CDC;
+	font-size: 1.2rem;
+	line-height: 50px;
+	text-align: center;
+	z-index: 10;
+}
+
+.drop-item {
+	top: 180px;
+}
+
+.btn {
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 1.2rem;
+	text-align: center;
+	border-radius: 0.3em;
+	margin: 0 auto;
+}
+
+#check-answers {
+	background-color: #f48642;
+}
+
+#check-answers.disabled {
+	background-color: #f1f1f1;
+}
+
+#check-answers:hover {
+	cursor: pointer;
+}
+
+#check-answers.disabled:hover {
+	cursor: not-allowed;
+}
+
+#response {
+	margin-top: 20px;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+#play-again {
+	background-color: #fff;
+	color: #f48642;
+	border: 2px solid #f48642;
+	cursor: pointer;
+}
